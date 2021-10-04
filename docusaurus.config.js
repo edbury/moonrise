@@ -6,13 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'moonrise',
   tagline: 'adventures in the twilight',
-  url: 'https://moonrise.com',
-  baseUrl: '/',
+  url: 'https://edbury.github.io',
+  baseUrl: '/moonrise/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'edbury', // Usually your GitHub org/user name.
   projectName: 'moonrise', // Usually your repo name.
+  trailingSlash: true,
 
   presets: [
     [
