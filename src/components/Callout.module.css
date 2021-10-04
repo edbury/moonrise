@@ -1,0 +1,36 @@
+.root {
+  display: grid;
+  grid-template-areas:
+    "icon title"
+    ". content";
+  grid-template-columns: max-content 1fr;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: var(--ifm-hover-overlay);
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: .5rem;
+  grid-area: icon;
+  align-self: center;
+  justify-self: start;
+  filter: invert();
+  line-height: 1;
+}
+
+.title {
+  grid-area: title;
+  line-height: 1;
+  align-self: center;
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.content {
+  grid-area: content;
+  padding-top: 1rem;
+}
