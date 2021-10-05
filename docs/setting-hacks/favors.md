@@ -25,7 +25,7 @@ To break the spiral, you need to look outside of Favors. You'll need to make Lin
 One notable difference between Favors and the typical conception of wealth is that Favors are owed by lifepath, not the individual. Similar to inheriting the debts of our forebears, characters in Moonrise inherit the favors and debts of their station.
 
 <Callout title="Example">
-After retrieving the his Ancient Hammer, Blacksmith Murphy may reward you with a promise from the Blacksmith of Ruralberg. This promise maintains its value even if Blacksmith Murphy is killed before you (or someone you've transferred the favor to) comes to collect. His apprentice, upon becoming Blacksmith of Ruralberg, would then owe the accrued favor.
+After retrieving his Ancient Hammer, Blacksmith Murphy may reward you with a promise from the Blacksmith of Ruralberg. This promise maintains its value even if Blacksmith Murphy is killed before you (or someone you've transferred the favor to) comes to collect. His apprentice, upon becoming Blacksmith of Ruralberg, would then owe the accrued favor.
 </Callout>
 
 ## Failed Favors Tests: Tax
