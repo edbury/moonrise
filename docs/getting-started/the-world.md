@@ -3,7 +3,7 @@ slug: /
 sidebar_position: 1
 ---
 
-import Callout from "../src/components/Callout";
+import Callout from "../../src/components/Callout";
 
 # The World
 
