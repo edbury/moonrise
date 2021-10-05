@@ -25,12 +25,11 @@
   grid-area: title;
   line-height: 1;
   align-self: center;
-  margin: 0;
+  margin-bottom: 1rem;
   font-size: 1.1rem;
   font-weight: 600;
 }
 
 .content {
   grid-area: content;
-  padding-top: 1rem;
 }
