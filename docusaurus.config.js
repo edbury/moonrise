@@ -15,6 +15,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   projectName: 'moonrise', // Usually your repo name.
   trailingSlash: true,
 
+  plugins: ['docusaurus-plugin-sass'],
+
   presets: [
     [
       '@docusaurus/preset-classic',

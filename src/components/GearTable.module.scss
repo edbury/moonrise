@@ -1,0 +1,25 @@
+.root {
+  td,
+  th {
+    text-align: start;
+    border-inline: 0;
+  }
+
+  tr,
+  tr:nth-child(2n) {
+    background-color: transparent;
+  }
+}
+
+.caption {
+  &:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+}
+

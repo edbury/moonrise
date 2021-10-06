@@ -15,10 +15,6 @@ export type Props = {
   title?: string;
 };
 
-type PropsCalloutContent = {
-  children: ReactNode;
-};
-
 const Callout: FunctionComponent<Props> = (props) => {
   const { children, title } = props;
 
