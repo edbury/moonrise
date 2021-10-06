@@ -19,17 +19,19 @@ interface PropsItem {
   name: string;
   cost: number;
   slots: string;
+  avail: number;
 }
 
 export type StaticComponents = {
   Item: typeof Item;
 };
 
-const Item = ({ name, cost, slots }: PropsItem) => (
+const Item = ({ name, cost, slots, avail }: PropsItem) => (
   <tr>
     <td>{ name }</td>
     <td>Ob { cost }</td>
     <td>{ slots }</td>
+    <td className={styles.number}>{ avail }</td>
   </tr>
 );
 
@@ -49,6 +51,9 @@ const GearTable: FunctionComponent<Props> & StaticComponents = (props) => {
           </th>
           <th scope="column">
             Slots
+          </th>
+          <th className={styles.number} scope="column">
+            Avail.
           </th>
         </tr>
       </thead>
