@@ -1,5 +1,6 @@
 .root {
   display: grid;
+  max-width: 33em;
   grid-template-areas:
     "icon title"
     ". content";

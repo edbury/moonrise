@@ -52,6 +52,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   filter: invert() brightness(0.9) sepia(1) hue-rotate(0deg) saturate(.5);
 }
 
-p {
+p,
+ul,
+ol,
+blockquote {
   max-width: 33em;
 }
