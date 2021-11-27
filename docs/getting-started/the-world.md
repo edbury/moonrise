@@ -1,5 +1,3 @@
-import Callout from "../../src/components/Callout";
-
 # The World
 
 This planet is old. Old enough to be tidally locked, so a few billion years. There have probably been a few apocalypses, natural and unnatural. I'm imagining it as the end-of-life for the world of Indigo.
