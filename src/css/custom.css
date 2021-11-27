@@ -58,3 +58,7 @@ ol,
 blockquote {
   max-width: 33em;
 }
+
+p:last-child {
+  margin-bottom: 0;
+}
