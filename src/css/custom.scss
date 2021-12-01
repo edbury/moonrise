@@ -49,7 +49,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .navbar__logo {
-  filter: invert() brightness(0.9) sepia(1) hue-rotate(0deg) saturate(.5);
+  //filter: invert() brightness(0.9) sepia(1) hue-rotate(0deg) saturate(.5);
 }
 
 p,
@@ -57,8 +57,9 @@ ul,
 ol,
 blockquote {
   max-width: 33em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
-p:last-child {
-  margin-bottom: 0;
-}

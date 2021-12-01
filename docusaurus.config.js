@@ -28,7 +28,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           editUrl: 'https://github.com/edbury/moonrise/edit/main/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       }),
     ],
